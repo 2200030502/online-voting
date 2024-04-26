@@ -1,0 +1,116 @@
+/* App.css */
+
+/* Styling for the vote form */
+.vote-form {
+  background-color: #f0f0f0; /* Light grey background color */
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the voting options */
+.vote-list {
+  background-color: #e6e6e6; /* Light grey background color */
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the voting results */
+.result {
+  background-color: #f5f5f5; /* Light grey background color */
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the login page */
+.login-page {
+  background-color: gold;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+  margin-top: 0;
+}
+
+.login-form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the voting section */
+.voting-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.vote-form,
+.vote-list,
+.result {
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 10px;
+}
+
+.vote-form h2,
+.vote-list h2,
+.result h2 {
+  margin-top: 0;
+}
+
+.vote-list ul,
+.result ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.vote-list li,
+.result li {
+  margin-bottom: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
